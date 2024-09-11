@@ -51,10 +51,10 @@ function Home() {
           </div>
           <div className="middle-image">
             <div className="inner-images">
-            <img className="inner-image" src={Image2} alt="image2" />
+              <img className="inner-image" src={Image2} alt="image2" />
             </div>
             <div className="inner-images">
-            <img className="inner-image" src={Image3} alt="image3" />
+              <img className="inner-image" src={Image3} alt="image3" />
             </div>
           </div>
           <div className="image">
@@ -67,7 +67,9 @@ function Home() {
       <div className="section-C">
         <div className="section-C-top">
           <div className="section-C-top-info1">
-            <h2 className="section-C-top-info1-heading">Enjoy the best of our quality facilities</h2>
+            <h2 className="section-C-top-info1-heading">
+              Enjoy the best of our quality facilities
+            </h2>
           </div>
           <div className="section-C-top-info2">
             <button className="section-C-top-info2-button">See more</button>
@@ -77,18 +79,34 @@ function Home() {
           <div className="line"></div>
           <div className="section-C-bottom-info1">
             <div className="section-C-bottom-info1-img">
-              <img className="section-C-bottom-images" src={Image5} alt="image5" />
+              <img
+                className="section-C-bottom-images"
+                src={Image5}
+                alt="image5"
+              />
             </div>
             <div className="section-C-bottom-info1-detail"></div>
           </div>
           <div className="line"></div>
           <div className="section-C-bottom-info2">
-            <div className="section-C-bottom-info2-img"></div>
+            <div className="section-C-bottom-info2-img">
+            <img
+                className="section-C-bottom-images"
+                src={Image6}
+                alt="image6"
+              />
+            </div>
             <div className="section-C-bottom-info2-detail"></div>
           </div>
           <div className="line"></div>
           <div className="section-C-bottom-info3">
-            <div className="section-C-bottom-info3-img"></div>
+            <div className="section-C-bottom-info3-img">
+            <img
+                className="section-C-bottom-images"
+                src={Image7}
+                alt="image7"
+              />
+            </div>
             <div className="section-C-bottom-info3-detail"></div>
           </div>
         </div>
