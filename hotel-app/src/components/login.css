@@ -66,3 +66,13 @@
     align-self: center;
     gap: 0.3rem;
 }
+
+.goToForgotPassword:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.goToRegister:hover {
+    color: blue;
+    cursor: pointer;
+}

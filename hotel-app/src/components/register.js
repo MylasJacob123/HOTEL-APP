@@ -1,8 +1,14 @@
 import React from "react";
 import "./register.css";
 import registerlogo from "./assets/Rectangle 2.png";
+import { useNavigate } from "react-router-dom";
 
-function register() {
+function Register() {
+    const navigate = useNavigate();
+
+    const handleRegister = () => {
+        navigate("/");
+    }
   return (
     <div className="register-container">
       <div className="register">
@@ -49,14 +55,14 @@ function register() {
               required
               name="terms-and-conditions"
             />{" "}
-            I agree to <a href="">Terms & Conditions</a>
+            I agree to <a>Terms & Conditions</a>
           </div>
           <div className="register-section-F">
-            <button className="register-button">Create account</button>
+            <button className="register-button" onClick={handleRegister}>Create account</button>
           </div>
         </div>
       </div>
     </div>
   );
 }
-export default register;
+export default Register;
