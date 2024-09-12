@@ -31,13 +31,13 @@ function Navigate() {
           </ul>
           <div className="profile">
             <ul className="profile-nav-items">
-            <li className="profile-nav-list">
-              <FontAwesomeIcon icon={faUserCircle} />
+              <FontAwesomeIcon className="profile-icon" icon={faUserCircle} />
+            {/* <li className="profile-nav-list">
             <Link to="/register"><span className="nav-list-routes">Register</span></Link>
             </li>
             <li className="profile-nav-list">
               <Link to="/login"><span className="nav-list-routes">Login</span></Link>
-            </li>
+            </li> */}
           </ul>
           </div>
       </div>
