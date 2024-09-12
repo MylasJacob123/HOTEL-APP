@@ -8,6 +8,14 @@ import Image4 from "./assets/Rectangle 20.png";
 import Image5 from "./assets/Rectangle 26.png";
 import Image6 from "./assets/Rectangle 31.png";
 import Image7 from "./assets/Rectangle 33.png";
+import Image8 from "./assets/Rectangle 42.png";
+import Image9 from "./assets/Mandala Royal Resort Logo Minimalist (5).png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faChevronDown,
+  faArrowLeft,
+  faArrowRight,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   return (
@@ -19,7 +27,7 @@ function Home() {
         </div>
         <div className="section-A-middle">
           <h2 className="section-A-middle-head-text">
-            Helping You Find An Escape To To A Comfortable Place
+            Helping You Find An Escape <br></br>To A <br></br>Comfortable Place
           </h2>
           <h4 className="section-A-middle-sub-text">
             It could be A quiet place for your journey ahead
@@ -41,7 +49,9 @@ function Home() {
               Book your perfect stay, effortlessly. Find peace of mind with
               instant booking and exclusive offers.
             </p>
-            <span className="section-B-top-box2-director">More info</span>
+            <span className="section-B-top-box2-director">
+              More info <FontAwesomeIcon icon={faArrowRight} />
+            </span>
           </div>
         </div>
 
@@ -76,7 +86,6 @@ function Home() {
           </div>
         </div>
         <div className="section-C-bottom">
-          <div className="line"></div>
           <div className="section-C-bottom-info1">
             <div className="section-C-bottom-info1-img">
               <img
@@ -85,29 +94,60 @@ function Home() {
                 alt="image5"
               />
             </div>
-            <div className="section-C-bottom-info1-detail"></div>
+            <div className="section-C-bottom-info1-detail">
+              <div className="section-C-bottom-info1-detail-text">
+                <h3>The Spa</h3>
+                <p>
+                  Relax and rejuvenate in our serene spa. Pamper yourself with
+                  our luxurious spa treatments.
+                </p>
+              </div>
+              <div className="section-C-bottom-info1-detail-arrow">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </div>
+            </div>
           </div>
-          <div className="line"></div>
           <div className="section-C-bottom-info2">
             <div className="section-C-bottom-info2-img">
-            <img
+              <img
                 className="section-C-bottom-images"
                 src={Image6}
                 alt="image6"
               />
             </div>
-            <div className="section-C-bottom-info2-detail"></div>
+            <div className="section-C-bottom-info2-detail">
+              <div className="section-C-bottom-info2-detail-text">
+                <h3>Indoor Swimming Pool</h3>
+                <p>
+                  Escape to our tranquil indoor pool, where luxury meets
+                  leisure.
+                </p>
+              </div>
+              <div className="section-C-bottom-info2-detail-arrow">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </div>
+            </div>
           </div>
-          <div className="line"></div>
           <div className="section-C-bottom-info3">
             <div className="section-C-bottom-info3-img">
-            <img
+              <img
                 className="section-C-bottom-images"
                 src={Image7}
                 alt="image7"
               />
             </div>
-            <div className="section-C-bottom-info3-detail"></div>
+            <div className="section-C-bottom-info3-detail">
+              <div className="section-C-bottom-info3-detail-text">
+                <h3>Caffe & Restaurant</h3>
+                <p>
+                  Experience world-class dining without leaving the hotel.
+                  Exquisite meals, crafted by our top chefs.
+                </p>
+              </div>
+              <div className="section-C-bottom-info3-detail-arrow">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -115,10 +155,70 @@ function Home() {
       {/* SECTION D */}
       <div className="section-D">
         <div className="section-D-top">
-          <div className="section-D-top-info"></div>
-          <div className="section-D-top-info"></div>
+          <div className="section-D-top-info1">
+            <div>
+              <h5>CLIENT FEEDBACK</h5>
+              <p>
+                “My stay was outstanding. The luxurious but comforting, the
+                exceptional service and top-notch amenities made it a truly
+                unforgettable experience.”
+              </p>
+              <h6 className="client-review">Rebecca Stacy</h6>
+            </div>
+          </div>
+          <div className="section-D-top-info2">
+            <img
+              className="section-D-top-info2-image"
+              src={Image8}
+              alt="image1"
+            />
+          </div>
         </div>
-        <div className="section-D-bottom"></div>
+        <div className="section-D-bottom">
+          <div className="section-D-bottom-top">
+            <div className="section-D-bottom-top1">
+              <div className="section-D-bottom-top1-logo-div">
+                <div className="section-D-bottom-top1-logo">
+                  <img src={Image9} alt="image9" />
+                </div>
+                <h6>20 Houston Park Ave</h6>
+                <h6>Evelyn, Richmond Monaco 2322</h6>
+              </div>
+              <div className="section-D-bottom-top1-overview">
+                <div>
+                  <h6>Rooms</h6>
+                  <h6>Facilities</h6>
+                  <h6>About</h6>
+                </div>
+                <div>
+                  <h6>Instagram</h6>
+                  <h6>Twitter</h6>
+                  <h6>YouTube</h6>
+                </div>
+              </div>
+            </div>
+            <div className="section-D-bottom-top2">
+              <h6>Contact Details</h6>
+              <p className="section-D-bottom-top2-contact-details">
+                greywood@gmail.com
+                <br />
+                +27 81 007 1498
+              </p>
+            </div>
+          </div>
+          <div className="section-D-bottom-bottom">
+            <div className="section-D-bottom-bottom1"></div>
+            <div className="section-D-bottom-bottom2">
+              <div className="section-D-bottom-bottom2-box1">
+              <h6>(c)2024Greywood. All rights reserved</h6>
+              </div>
+              <div className="section-D-bottom-bottom2-box2">
+                <h6>Terms & Conditions</h6>
+                <h6>Privacy Policy</h6>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
