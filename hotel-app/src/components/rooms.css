@@ -55,6 +55,7 @@
   gap: 1.5rem;
   width: 15%;
   height: 80%;
+  position: relative;
 }
 
 .rooms-display-header-bottom-categories-box-category {
@@ -67,6 +68,13 @@
   width: 50%;
   background-color: whitesmoke;
   opacity: 50%;
+  display: none;
+  position: absolute;
+  bottom: 0;
+}
+
+.rooms-display-header-bottom-categories-box:hover .rooms-display-header-bottom-categories-box-category-hover {
+  display: block; 
 }
 
 .rooms-display-header-bottom-categories-line {

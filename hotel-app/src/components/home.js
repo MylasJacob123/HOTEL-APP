@@ -11,11 +11,7 @@ import Image7 from "./assets/Rectangle 33.png";
 import Image8 from "./assets/Rectangle 42.png";
 import Image9 from "./assets/Mandala Royal Resort Logo Minimalist (5).png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faChevronDown,
-  faArrowLeft,
-  faArrowRight,
-} from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   return (
