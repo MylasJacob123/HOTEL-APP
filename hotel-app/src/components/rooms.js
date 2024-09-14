@@ -5,6 +5,13 @@ import FooterImg from "./assets/Rectangle 77.png";
 import RoomsFooterLogo from "./assets/Mandala Royal Resort Logo Minimalist (5).png";
 import SingleRoomDeluxe from "./assets/Single Room Deluxe Image.png";
 import SingleRoomDeluxePremium from "./assets/Single Room Deluxe Premium.png";
+import RegalPrestigeDouble from "./assets/Regal Prestige Double Room.png";
+import TheRegalQueenEscape from "./assets/The Regal Queen Escape.png";
+import OpulentKingRetreat from "./assets/Opulent King Retreat.png";
+import PrestigePresidentialSuite from "./assets/Prestige Presidential Suite.png";
+import RoyalDoubleHaven from "./assets/Royal Double Haven.png";
+import OpalQueenRetreat from "./assets/Opal Queen Retreat.png";
+import ImperialKingHaven from "./assets/Imperial King Haven.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faWifi,
@@ -90,7 +97,7 @@ function Rooms() {
               />
             </div>
             <div className="room-display-card-info">
-              <div class="room-display-card-info-heading-body">
+              <div class="room-display-card-info-heading-body1">
                 <h4>Single Room Deluxe</h4>
                 <div className="room-display-card-info-heading-body-line"></div>
               </div>
@@ -131,10 +138,224 @@ function Rooms() {
               </div>
             </div>
           </div>
-          <div className="room-display-card"></div>
-          <div className="room-display-card"></div>
-          <div className="room-display-card"></div>
-          <div className="room-display-card"></div>
+          <div className="room-display-card">
+            <div className="room-display-card-image-div">
+              <img
+                className="room-display-card-image"
+                src={RegalPrestigeDouble}
+                alt="Image of the Single Room Deluxe"
+              />
+            </div>
+            <div className="room-display-card-info">
+              <div class="room-display-card-info-heading-body3">
+                <h4>Regal Prestige Double Room</h4>
+                <div className="room-display-card-info-heading-body-line"></div>
+              </div>
+              <h5>
+                <span className="room-display-card-info-price">$625</span> / per night
+              </h5>
+              <div className="room-display-card-info-amenities">
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faWifi} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>High-speed Wi-Fi</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faUtensils} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>Breakfast</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faBed} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>Two beds</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faBath} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>2 Bathrooms</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faUser} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>2-4 people</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="room-display-card">
+            <div className="room-display-card-image-div">
+              <img
+                className="room-display-card-image"
+                src={TheRegalQueenEscape}
+                alt="Image of the Single Room Deluxe"
+              />
+            </div>
+            <div className="room-display-card-info">
+              <div class="room-display-card-info-heading-body4">
+                <h4>The Regal Queen Escape</h4>
+                <div className="room-display-card-info-heading-body-line"></div>
+              </div>
+              <h5>
+                <span className="room-display-card-info-price">$685</span> / per night
+              </h5>
+              <div className="room-display-card-info-amenities">
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faWifi} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>High-speed Wi-Fi</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faUtensils} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>Breakfast</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faBed} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>Queen-size bed</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faBath} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>1 Bathrooms</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faShower} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>1 Shower</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faUser} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>2-3 people</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="room-display-card">
+            <div className="room-display-card-image-div">
+              <img
+                className="room-display-card-image"
+                src={OpulentKingRetreat}
+                alt="Image of the Single Room Deluxe"
+              />
+            </div>
+            <div className="room-display-card-info">
+              <div class="room-display-card-info-heading-body5">
+                <h4>Opulent King Retreat</h4>
+                <div className="room-display-card-info-heading-body-line"></div>
+              </div>
+              <h5>
+                <span className="room-display-card-info-price">$700</span> / per night
+              </h5>
+              <div className="room-display-card-info-amenities">
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faWifi} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>High-speed Wi-Fi</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faUtensils} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>Breakfast</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faBed} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>King-size bed</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faBath} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>1 Bathrooms</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faShower} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>1 Shower</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faUser} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>2-3 people</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="room-display-card">
+            <div className="room-display-card-image-div">
+              <img
+                className="room-display-card-image"
+                src={PrestigePresidentialSuite}
+                alt="Image of the Single Room Deluxe"
+              />
+            </div>
+            <div className="room-display-card-info">
+              <div class="room-display-card-info-heading-body6">
+                <h4>Prestige Presidential Suite</h4>
+                <div className="room-display-card-info-heading-body-line"></div>
+              </div>
+              <h5>
+                <span className="room-display-card-info-price">$885</span> / per night
+              </h5>
+              <div className="room-display-card-info-amenities">
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faWifi} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>High-speed Wi-Fi</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faUtensils} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>Breakfast</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faBed} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>2 King-sized beds</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faBath} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>1 Bathrooms</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faShower} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>1 Shower</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faUser} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>2-4 people</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="room-display-card">
             <div className="room-display-card-image-div">
               <img
@@ -144,7 +365,7 @@ function Rooms() {
               />
             </div>
             <div className="room-display-card-info">
-              <div class="room-display-card-info-heading-body">
+              <div class="room-display-card-info-heading-body2">
                 <h4>Single Room Deluxe Premium</h4>
                 <div className="room-display-card-info-heading-body-line"></div>
               </div>
@@ -185,9 +406,168 @@ function Rooms() {
               </div>
             </div>
           </div>
-          <div className="room-display-card"></div>
-          <div className="room-display-card"></div>
-          <div className="room-display-card"></div>
+          <div className="room-display-card">
+            <div className="room-display-card-image-div">
+              <img
+                className="room-display-card-image"
+                src={RoyalDoubleHaven}
+                alt="Image of the Single Room Deluxe"
+              />
+            </div>
+            <div className="room-display-card-info">
+              <div class="room-display-card-info-heading-body1">
+                <h4>Royal Double Haven</h4>
+                <div className="room-display-card-info-heading-body-line"></div>
+              </div>
+              <h5>
+                <span className="room-display-card-info-price">$630</span> / per night
+              </h5>
+              <div className="room-display-card-info-amenities">
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faWifi} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>High-speed Wi-Fi</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faUtensils} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>Breakfast</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faBed} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>Two beds</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faBath} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>2 Bathrooms</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faUser} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>2-4 people</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="room-display-card">
+            <div className="room-display-card-image-div">
+              <img
+                className="room-display-card-image"
+                src={OpalQueenRetreat}
+                alt="Image of the Single Room Deluxe"
+              />
+            </div>
+            <div className="room-display-card-info">
+              <div class="room-display-card-info-heading-body1">
+                <h4>Opal Queen Retreat</h4>
+                <div className="room-display-card-info-heading-body-line"></div>
+              </div>
+              <h5>
+                <span className="room-display-card-info-price">$705</span> / per night
+              </h5>
+              <div className="room-display-card-info-amenities">
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faWifi} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>High-speed Wi-Fi</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faUtensils} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>Breakfast</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faBed} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>Queen-size bed</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faBath} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>1 Bathrooms</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faShower} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>1 Shower</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faUser} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>2-3 people</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="room-display-card">
+            <div className="room-display-card-image-div">
+              <img
+                className="room-display-card-image"
+                src={ImperialKingHaven}
+                alt="Image of the Single Room Deluxe"
+              />
+            </div>
+            <div className="room-display-card-info">
+              <div class="room-display-card-info-heading-body7">
+                <h4>Imperial King Haven</h4>
+                <div className="room-display-card-info-heading-body-line"></div>
+              </div>
+              <h5>
+                <span className="room-display-card-info-price">$720</span> / per night
+              </h5>
+              <div className="room-display-card-info-amenities">
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faWifi} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>High-speed Wi-Fi</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faUtensils} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>Breakfast</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faBed} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>King-size bed</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faBath} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>1 Bathrooms</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faShower} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>1 Shower</span></div>
+                </div>
+                <div className="room-display-card-info-amenity">
+                  <div class="room-display-card-info-amenity-icon">
+                    <FontAwesomeIcon icon={faUser} />
+                  </div>
+                  <div class="room-display-card-info-amenity-text"><span>2-3 people</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

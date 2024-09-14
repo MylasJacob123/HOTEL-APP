@@ -89,21 +89,27 @@
 
 .rooms-display-middle-cards {
   height: 100%;
-  width: 80%;
+  width: 70%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
   row-gap: 2rem;
+  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
 .room-display-card {
   width: 22.75rem;
-  height: 27.625rem;
+  height: 28.625rem;
   background-color: #F4F4F4;
   border-radius: 2rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.room-display-card:hover {
+  transform: scale(1.1);
 }
 
 .room-display-card-image-div {
@@ -112,7 +118,6 @@
   align-items: center;
   width: 100%;
   height: 45%;
-  background-color: greenyellow;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
 }
@@ -134,11 +139,59 @@
   padding: 1rem;
 }
 
-.room-display-card-info-heading-body {
+.room-display-card-info-heading-body1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 68%;
+  height: 22%;
+}
+
+.room-display-card-info-heading-body2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+  height: 22%;
+}
+
+.room-display-card-info-heading-body3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 97%;
+  height: 22%;
+}
+
+.room-display-card-info-heading-body4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  height: 22%;
+}
+
+.room-display-card-info-heading-body5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 72%;
+  height: 22%;
+}
+
+.room-display-card-info-heading-body6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 22%;
+}
+
+.room-display-card-info-heading-body7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 68%;
   height: 22%;
 }
 
