@@ -9,9 +9,9 @@ import Image5 from "./assets/Rectangle 26.png";
 import Image6 from "./assets/Rectangle 31.png";
 import Image7 from "./assets/Rectangle 33.png";
 import Image8 from "./assets/Rectangle 42.png";
-import Image9 from "./assets/Mandala Royal Resort Logo Minimalist (5).png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import Footer from "./footer";
 
 function Home() {
   return (
@@ -171,49 +171,7 @@ function Home() {
           </div>
         </div>
         <div className="section-D-bottom">
-          <div className="section-D-bottom-top">
-            <div className="section-D-bottom-top1">
-              <div className="section-D-bottom-top1-logo-div">
-                <div className="section-D-bottom-top1-logo">
-                  <img src={Image9} alt="image9" />
-                </div>
-                <h6>20 Houston Park Ave</h6>
-                <h6>Evelyn, Richmond Monaco 2322</h6>
-              </div>
-              <div className="section-D-bottom-top1-overview">
-                <div>
-                  <h6>Rooms</h6>
-                  <h6>Facilities</h6>
-                  <h6>About</h6>
-                </div>
-                <div>
-                  <h6>Instagram</h6>
-                  <h6>Twitter</h6>
-                  <h6>YouTube</h6>
-                </div>
-              </div>
-            </div>
-            <div className="section-D-bottom-top2">
-              <h6>Contact Details</h6>
-              <p className="section-D-bottom-top2-contact-details">
-                greywood@gmail.com
-                <br />
-                +27 81 007 1498
-              </p>
-            </div>
-          </div>
-          <div className="section-D-bottom-bottom">
-            <div className="section-D-bottom-bottom1"></div>
-            <div className="section-D-bottom-bottom2">
-              <div className="section-D-bottom-bottom2-box1">
-              <h6>(c)2024Greywood. All rights reserved</h6>
-              </div>
-              <div className="section-D-bottom-bottom2-box2">
-                <h6>Terms & Conditions</h6>
-                <h6>Privacy Policy</h6>
-              </div>
-            </div>
-          </div>
+          <Footer />
         </div>
       </div>
     </div>

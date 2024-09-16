@@ -1,0 +1,70 @@
+.about-page {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hero {
+    background-image: url(./assets/Rectangle-1.png);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .hero-heading {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  .history, .mission, .services, .contact {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .history h2, .mission h2, .services h2, .contact h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .service-item {
+    width: 20%;
+    text-align: center;
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    color: black;
+  }
+  
+  .service-item h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .contact p {
+    font-size: 1.2rem;
+  }
+  
+  .contact strong {
+    font-weight: bold;
+  }
+  
