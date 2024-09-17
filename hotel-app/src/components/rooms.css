@@ -1,6 +1,7 @@
 .rooms-display {
   width: 100%;
   height: 100%;
+  background-color: white;
 }
 
 /* HEADER */
@@ -29,7 +30,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
   width: 85%;
   height: 50%;
 }
@@ -41,7 +42,7 @@
   align-items: center;
   gap: .7rem;
   width: 90%;
-  height: 70%;
+  height: 50%;
   background-color: black;
   opacity: 65%;
 }
@@ -93,7 +94,7 @@
 .rooms-display-middle {
   display: flex;
   justify-content: center;
-  width: 100%;
+  align-items: center;
   height: auto;
   background-color: white;
 }

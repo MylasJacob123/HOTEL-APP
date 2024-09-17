@@ -6,15 +6,19 @@ import {
   faUtensils,
   faSwimmer,
   faConciergeBell,
+  faDumbbell,
 } from "@fortawesome/free-solid-svg-icons";
-// import Navigation from "./navigation";
+import Navigation from "./navigation";
+import Footer from "./footer"
 
 function About() {
   return (
     <div className="about-page">
       {/* Hero Section */}
       <section className="hero">
-        {/* <Navigation /> */}
+        <div className="nav">
+          <Navigation />
+        </div>
         <div className="hero-heading">
           <h1>Welcome to Greywood Hotel</h1>
           <p>Where your comfort is our priority</p>
@@ -25,7 +29,7 @@ function About() {
       <section className="history">
         <h2>Our History</h2>
         <p>
-          Founded in 1990, Lebogang's Hotel has been the epitome of luxury and
+          Founded in 1990, Greywood Hotel has been the epitome of luxury and
           comfort for over three decades. Our commitment to providing excellent
           service has made us a beloved destination for travelers worldwide.
         </p>
@@ -67,21 +71,20 @@ function About() {
             <h3>24/7 Concierge</h3>
             <p>Our staff is here to assist you anytime, day or night.</p>
           </div>
+          <div className="service-item">
+            <FontAwesomeIcon icon={faDumbbell} className="service-icon" />
+            <h3>Gym Facility</h3>
+            <p>
+              Fully equipped gym available 24/7 to keep you fit during your
+              stay.
+            </p>
+          </div>
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section className="contact">
-        <h2>Contact Us</h2>
-        <p>
-          <strong>Address:</strong> 123 Hotel Lane, Cityville
-        </p>
-        <p>
-          <strong>Phone:</strong> (123) 456-7890
-        </p>
-        <p>
-          <strong>Email:</strong> contact@leboganghotel.com
-        </p>
+      {/* Footer Section */}
+      <section>
+        <Footer />
       </section>
     </div>
   );

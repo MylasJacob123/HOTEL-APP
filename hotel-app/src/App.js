@@ -6,6 +6,7 @@ import Home from "./components/home";
 import Facilities from "./components/facilities"
 import Rooms from "./components/rooms";
 import About from "./components/about";
+import Contact from "./components/contact"
 import './App.css';
 import RoomDisplay from "./components/roomdisplay";
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/rooms" element={<Rooms />} />
           <Route path="/facilities" element={<Facilities />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/forgot" element={<ForgotPassword />} />
