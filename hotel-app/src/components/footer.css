@@ -11,16 +11,13 @@
   .footer-top {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: .5rem;
     flex-wrap: wrap;
     width: 85%;
   }
   
   .footer-top1 {
     display: flex;
-    justify-content: space-between;
-    width: 60%;
+    width: 40%;
     height: auto;
     flex-wrap: wrap; 
   }
@@ -58,6 +55,35 @@
     width: 30%;
     height: auto;
   }
+
+  .footer-top3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+  }
+
+  .map-container {
+    width: 60%; 
+    max-width: 31.25rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 60%; 
+  }
+  
+  .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  
   
   .footer-top2-contact-details {
     color: rgb(192, 190, 190);

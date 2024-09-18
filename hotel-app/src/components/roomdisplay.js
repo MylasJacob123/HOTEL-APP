@@ -17,11 +17,12 @@ import {
   faStar,
   faArrowLeft,
 } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
 
 function RoomDisplay() {
   const [showForm, setShowForm] = useState(false);
+  const navigate = useNavigate();
 
-  // Toggle form visibility
   const handleBookNowClick = () => {
     setShowForm(true);
   };
@@ -29,6 +30,10 @@ function RoomDisplay() {
   const handleBackClick = () => {
     setShowForm(false);
   };
+
+  const goToPaymentForm = () => {
+    navigate("/paymentform");
+  }
 
   return (
     <div className="rooms-display">
@@ -182,7 +187,6 @@ function RoomDisplay() {
         </div>
 
         <div className="rooms-display-middle">
-          {/* Conditionally render the Book Now button or the Booking Form */}
           {!showForm && (
             <button className="book-now-btn" onClick={handleBookNowClick}>
               Book now
@@ -206,10 +210,10 @@ function RoomDisplay() {
                 />
               </div>
               <div className="whats-the-price">
-                <h2>Price $885</h2>
-                <h2>Calculated Price</h2>
+                <h2 className="whats-the-price-h">Price $885</h2>
+                <h2 className="whats-the-price-h">Calculated Price</h2>
               </div>
-              <form>
+              <form className="form">
                 <label className="labels" htmlFor="name">
                   What is your name?
                 </label>
@@ -252,7 +256,7 @@ function RoomDisplay() {
                   required
                 />
 
-                <button type="submit">Book</button>
+                <button type="submit" onClick= {goToPaymentForm}>Book</button>
               </form>
             </div>
           )}

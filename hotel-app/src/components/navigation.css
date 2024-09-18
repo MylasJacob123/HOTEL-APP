@@ -61,7 +61,7 @@
     font-size: 2.3rem;
     opacity: 100%;
     color: white; 
-  }
+}
 
 .profile {
     display: flex;
@@ -69,6 +69,7 @@
     align-items: center;
     width: 12%;
     height: 40%;
+    position: relative; /* Make it relative to position the profile dropdown */
 }
 
 .profile-nav-items {
@@ -85,5 +86,16 @@
     height: 200%;
     background-color: whitesmoke;
     border-radius: 60%;
+    cursor: pointer;
 }
-  
+
+.profile-container {
+    position: absolute;
+    top: 50px; /* Adjust according to your navbar height */
+    right: 0;
+    width: 300px; /* Profile card width */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    display: block; /* Keep profile card positioned */
+}

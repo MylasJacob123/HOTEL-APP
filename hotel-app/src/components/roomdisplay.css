@@ -287,7 +287,7 @@
 .rooms-display-middle {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   margin: 4rem;
 }
 
@@ -400,6 +400,10 @@
     padding: 1rem;
     color: white;
   }
+
+  .whats-the-price-h {
+    color: whitesmoke;
+  }
   
   .form {
     display: flex;
@@ -410,6 +414,7 @@
     border-radius: 0.625rem;
     margin-top: 1rem;
     border: 0.16rem solid whitesmoke;
+    background-color: rgb(24, 24, 24);
   }
   
   .name, .email, input[type="date"] {
@@ -460,4 +465,5 @@
       flex-basis: 100%;
     }
   }
+  
   

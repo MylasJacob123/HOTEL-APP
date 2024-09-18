@@ -9,6 +9,8 @@ import About from "./components/about";
 import Contact from "./components/contact"
 import './App.css';
 import RoomDisplay from "./components/roomdisplay";
+import User from "./components/userprofile";
+import PaymentForm from "./components/paymentform";
 
 function App() {
   return (
@@ -20,10 +22,12 @@ function App() {
           <Route path="/facilities" element={<Facilities />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/user" element={<User />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/forgot" element={<ForgotPassword />} />
           <Route path="/roomdisplay" element={<RoomDisplay />} />
+          <Route path="/paymentform" element={<PaymentForm />} />
         </Routes>
       </BrowserRouter>
 
